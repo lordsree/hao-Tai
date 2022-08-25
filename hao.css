@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.head{
+    display: flex;
+}
+.head{
+    font-size: 27px;
+    display: flex;
+    align-items: center;
+}
+.container{
+    padding-left: 30px;
+    margin: 30px;
+}
+.headtag{
+    display: flex;
+}
