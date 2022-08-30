@@ -2,18 +2,258 @@
     margin: 0;
     padding: 0;
 }
-.head{
-    display: flex;
+ul,ol{
+    list-style: none;
 }
-.head{
-    font-size: 27px;
-    display: flex;
-    align-items: center;
+a{
+    text-decoration: none;
 }
 .container{
-    padding-left: 30px;
-    margin: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 50px;
 }
-.headtag{
+.flex{
     display: flex;
+}
+#hao{
+    justify-content: space-between;
+}
+header{
+    justify-content: space-between;
+    align-items: center;
+}
+.left span{
+    background-color:#FF575E ;
+    flex-direction: row;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+}
+.card1 .lack{
+    grid-template-columns: span 6;
+}
+.koe{
+    font-size: 20px;
+}
+.bottom{
+    gap: 30px;
+    padding: 80px 0px;
+    margin-top: 100px;
+}
+.bottom div{
+    background-color:#FFE2E4;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    display: flex;
+    padding: 0px 20px;
+}
+.dao{
+    flex-direction: column;
+    width: 200px;
+    height: 116px;
+    display: flex;
+    padding: 0px 20px;
+}
+.cat{
+    justify-content: center;
+    text-align: center;
+    color: #FF575E;
+    position: absolute;
+    width: 209px;
+    height: 30px;
+    left: 615px;
+    margin-top: -30px;
+    font-size: 20px;
+}
+.left{
+    margin: 20px 0px;
+}
+.left p{
+    margin: 20px 0px;
+}
+.gap{
+    gap: 170px;
+}
+.indo{
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 48px;
+    margin-top: 70px;
+}
+.bor{
+    background-color: white;
+    border: 1px solid pink;
+    border-radius: 5px;
+    padding: 50px;
+    width: 280px;
+    text-align: center;
+}
+.bor1{
+    width: 317px;
+    height: 26px;
+    text-align: center;
+    line-height: 26px;
+    justify-content: center;
+}
+.bor1 a{
+    color: #FF575E;
+}
+.imgs{
+    background-color: #FFE2E4;
+    border-radius: 12px;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin: 20px;
+}
+#card h3{
+    text-align: center;
+    padding: 70px;
+    font-size: 30px;
+    color: #FF575E;
+}
+.card1{
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+    gap: 48px;
+}
+.card2{
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 48px;
+}
+.pos{
+    padding-top: 10px;
+}
+.pos1{
+    padding-top: 30px;
+    text-align: center;
+}
+.pod{
+    padding-top: 20px;
+}
+.poc{
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    padding: 32px;
+    gap: 16px;
+
+    width: 315px;
+    height: 345px;
+
+    background-color: white;
+    border: 1px solid pink;
+    border-radius: 5px; 
+}
+.pos{
+    box-sizing: border-box;
+    text-align: center;
+}
+.org{
+    font-size: 20px;
+    color: #FF575E;
+    justify-content: center;
+    background-color:#FFE2E4;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 5px 5px;
+}
+.red{
+    color:#FF575E;
+    ;
+}
+.black{
+    color:#362324;
+}
+.bor h4{
+    text-align: center;
+}
+.haooo{
+    display: flex;
+    gap: 350px;
+}
+.benifts{
+    background-color: #FCF3F3;
+
+}
+.benifts li{
+    list-style-image: url('./hao\ img/check_circle.png');
+}
+.lef{
+    padding-left: 60px;
+}
+.mid{
+    padding: 30px 30px;
+}
+.head{
+    padding: 30px 30px;
+}
+.cls{
+    gap:30px;
+    padding-top: 30px;
+    margin-bottom: 10px;
+}
+.pow{
+    gap:30px;
+    margin-top: 20px;
+}
+.pow1{
+    padding-right: 30px;
+    margin-top: 20px;
+}
+.ko{
+    justify-content: space-between;
+    align-items: center;
+}
+.font{
+    font-size: 25px;
+    color: #FFFFFF;
+    ;
+}
+.spot{
+    background-color: #FF575E;
+    padding: 40px 40px;
+    flex-direction: column;
+}
+.ko{
+    justify-content: space-between;
+}
+.color{
+    color: #FFFFFF;
+}
+.dev{
+    gap: 65px;
+    color: #FFFFFF;  
+}
+.rop{
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 16px;
+}
+.foot{
+    color: #FFFFFF;
+}
+.luna{
+    padding-top: 15px;
+    gap: 20px;
+}
+
+
+@media screen and (max-width:1000px){
+    div.right{
+        display: none;
+    }
 }
