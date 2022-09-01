@@ -36,6 +36,9 @@ header{
 .card1 .lack{
     grid-template-columns: span 6;
 }
+.card2 .lack{
+    grid-template-columns: span 6;
+}
 .koe{
     font-size: 20px;
 }
@@ -51,14 +54,11 @@ header{
     align-items: center;
     text-align: center;
     flex-direction: column;
-    display: flex;
-    padding: 0px 20px;
+    padding:20px;
+    grid-column: span 3;
 }
 .dao{
     flex-direction: column;
-    width: 200px;
-    height: 116px;
-    display: flex;
     padding: 0px 20px;
 }
 .cat{
@@ -91,20 +91,12 @@ header{
 .bor{
     background-color: white;
     border: 1px solid pink;
-    border-radius: 5px;
+    border-radius: 15px;
     padding: 50px;
     width: 280px;
     text-align: center;
-}
-.bor1{
-    width: 317px;
-    height: 26px;
-    text-align: center;
-    line-height: 26px;
-    justify-content: center;
-}
-.bor1 a{
-    color: #FF575E;
+    grid-column: span 4;
+    margin: auto;
 }
 .imgs{
     background-color: #FFE2E4;
@@ -122,14 +114,11 @@ header{
 }
 .card1{
     justify-content: center;
-    align-items: flex-start;
     padding: 20px;
     gap: 48px;
 }
 .card2{
-    flex-direction: row;
     justify-content: center;
-    align-items: flex-start;
     padding: 0px;
     gap: 48px;
 }
@@ -137,26 +126,11 @@ header{
     padding-top: 10px;
 }
 .pos1{
-    padding-top: 30px;
+    padding-top: 10px;
     text-align: center;
 }
 .pod{
     padding-top: 20px;
-}
-.poc{
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
-    padding: 32px;
-    gap: 16px;
-
-    width: 315px;
-    height: 345px;
-
-    background-color: white;
-    border: 1px solid pink;
-    border-radius: 5px; 
 }
 .pos{
     box-sizing: border-box;
@@ -182,11 +156,11 @@ header{
     text-align: center;
 }
 .haooo{
-    display: flex;
-    gap: 350px;
+    gap: 35px;
 }
 .benifts{
     background-color: #FCF3F3;
+    padding-bottom: 110px;
 
 }
 .benifts li{
@@ -196,9 +170,6 @@ header{
     padding-left: 60px;
 }
 .mid{
-    padding: 30px 30px;
-}
-.head{
     padding: 30px 30px;
 }
 .cls{
@@ -227,6 +198,8 @@ header{
     background-color: #FF575E;
     padding: 40px 40px;
     flex-direction: column;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 .ko{
     justify-content: space-between;
@@ -250,10 +223,80 @@ header{
     padding-top: 15px;
     gap: 20px;
 }
-
-
-@media screen and (max-width:1000px){
+.benifits1{
+    grid-column: span 4;
+}
+.cent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 280px;
+}
+.clr{
+    color: #FF575E;
+}
+.med{
+    display: none;
+}
+@media screen and (max-width:1468px){
     div.right{
         display: none;
     }
+    div.benifits1{
+        grid-column: span 12;
 }
+@media screen and (max-width: 944px){
+    nav.headtag{
+        display: none;
+    }
+}
+@media screen and (max-width: 1444px){
+    div.bor{
+        grid-column: span 6;
+    }
+    div.poc{
+        grid-column: span 6;
+    }
+    div.card2{
+        grid-column: span 6;
+    }
+}
+@media screen and (max-width: 760px){
+    div.bor{
+        grid-column: span 12;
+    }
+    div.poc{
+        grid-column: span 12;
+    }
+    div.card2{
+        grid-column: span 12;
+    }
+}  
+@media screen and (max-width: 826px){
+    div.bottom{
+        flex-direction: column;
+        grid-column: span 12;
+    }
+    div.dao{
+        flex-direction: column;
+        grid-column: span 12;
+    }
+    div.h4{
+        flex-direction: column;
+        grid-column: span 12;
+    }
+}
+@media screen and (max-width: 682px) {
+footer.spot{
+    display: none;
+}
+}
+@media screen and (max-width: 944px){
+    div.med{
+        display: block;
+    }
+}
+
+
+    
+
